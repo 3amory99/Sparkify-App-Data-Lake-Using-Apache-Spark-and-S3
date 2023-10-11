@@ -1,7 +1,5 @@
 # Sparkify-App-Data-Lake-Using-Apache-Spark-and-S3
 
-
-
 ## Quick start
 
 First, rename dl_template.cfg to dl.cfg and fill in the open fields. Fill in AWS acces key (KEY) and secret (SECRET).
@@ -25,7 +23,7 @@ This Project-4 handles data of a music streaming startup, Sparkify. Data set is 
   `{"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}`
 
 * **s3://udacity-dend/log_data**: event data of service usage e.g. who listened what song, when, where, and with which client
-  ![Log-data example (log-data/2018/11/2018-11-12-events.json)](./Udacity-DEND-Project4-logdata-20190609.png)
+  ![Log-data example (log-data/2018/11/2018-11-12-events](https://github.com/3amory99/Sparkify-App-Data-Lake-Using-Apache-Spark-and-S3/blob/master/images/log-data.png)
 
 Below, some figures about the example data set (results after running the etl.py):
 
@@ -132,24 +130,6 @@ FROM time_table;
 SELECT COUNT(*)
 FROM songplays_table;
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Log Data
-
-The JSON logs on user activity have the following structure.
-
-![log data](https://github.com/Abdelrhman2022/Sparkify-Dend-Data-Lake-with-Apache-Spark/blob/main/Images/log-data.png)
 
 
 
