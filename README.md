@@ -27,6 +27,13 @@ This Project-4 handles data of a music streaming startup, Sparkify. Data set is 
 
 Below, some figures about the example data set (results after running the etl.py):
 
+### Schema
+
+Star schema optimized for queries on song play analysis. This includes the
+following tables.
+
+![Schema](https://github.com/3amory99/Sparkify-App-Data-Lake-Using-Apache-Spark-and-S3/blob/master/images/schema.png)
+
 
 ### Fact Table
 
